@@ -1,0 +1,58 @@
+body{
+    background-color: aliceblue;
+}
+
+.first{
+    background-color: aliceblue;
+    color: black;
+    display: inline;
+}
+.first a{
+    text-decoration: none;
+}
+
+.first ul,li{
+    display: inline;
+}
+
+h4{
+    display: inline;
+    margin-left: 30px;
+}
+
+.first ul{
+    margin-left: 60%;
+}
+
+.first li{
+    margin-right: 25px;
+}
+.projecthead {
+    text-align: center;
+    text-decoration: underline;
+    color: purple;
+}
+.project-details {
+    display: inline-block;
+    padding-left: 60px;
+}
+.project-images img {
+    display: inline-block;
+    height: 350px;
+    width: 350px;
+    padding-left: 80px;
+}
+.project-details1 {
+    float: right;
+    margin-top: -600px;
+    display: inline-block;
+    padding-right: 60px;
+}
+.project-images1 img{
+    float: right;
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin-top: -350px;
+    padding-right: 180px;
+}

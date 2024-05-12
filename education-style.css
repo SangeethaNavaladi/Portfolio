@@ -1,0 +1,59 @@
+body{
+    background-color: aliceblue;
+}
+
+.first{
+    background-color: aliceblue;
+    color: black;
+    display: inline;
+}
+.first a{
+    text-decoration: none;
+}
+
+.first ul,li{
+    display: inline;
+}
+
+h4{
+    display: inline;
+    margin-left: 30px;
+}
+
+.first ul{
+    margin-left: 60%;
+}
+
+.first li{
+    margin-right: 25px;
+}
+* {
+    box-sizing: border-box;
+}
+.education-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    color: purple;
+}
+
+.education-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.education-entry {
+    flex: 1;
+    background-color: #fff;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+p{
+    color: #3c3b3b;
+}
