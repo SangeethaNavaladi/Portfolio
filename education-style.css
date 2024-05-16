@@ -57,3 +57,30 @@ h2 {
 p{
     color: #3c3b3b;
 }
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: aliceblue;
+    }
+    .first{
+        background-color: aliceblue;
+        color: black;
+        display: inline;
+    }
+    .first a{
+        text-decoration: none;
+    }
+        
+    .first ul,li{
+        display: inline;
+    }
+        
+    h4{
+        display: block;
+        margin-left: 40px;
+    }
+        
+    .first ul{
+        margin-left: 0px;
+    }
+}
