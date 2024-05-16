@@ -39,10 +39,14 @@ h3{
     height: 300px;
     width: 275px;
     float: right;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-top: -20px;
 }
-
+.text{
+    display: inline-block;
+    margin-top: -200px;
+    margin-left: 150px;
+}
 .third{
     color: blue;
 }
@@ -50,34 +54,8 @@ h3{
 .names{
     font-style: italic;
 }
-
-.abouts{
-    text-decoration: underline;
-    text-align: center;
-    margin-right: 550px;
-    color: purple;
-}
-
-.forth{
-    padding: 100px;
-    float: right;
-    margin-left: 30px;
-    margin-bottom: 100px;
-    display: inline;
-    color: #3c3b3b;
-}
 .names{
     color: black;
-}
-
-.photos{
-    width: 270px;
-    height: 300px;
-    overflow: hidden;
-    display: inline-block;
-    float: left;
-    padding: 150px;
-    margin-top: 40px;
 }
 
 .linkedin1 {
@@ -111,22 +89,55 @@ h3{
     margin-top: 60px; 
 }
 
-.resume-link {
-    color: black;
-    text-decoration: none; 
-    font-weight: bold; 
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: aliceblue;
+    }
+    .first{
+        background-color: aliceblue;
+        color: black;
+        display: inline;
+    }
+    .first a{
+        text-decoration: none;
+    }
+    
+    .first ul,li{
+        display: inline;
+    }
+    
+    h4{
+        display: block;
+        margin-left: 40px;
+    }
+    
+    .first ul{
+        margin-left: 0px;
+    }
+    
+    .photostyle {
+        border-radius: 50%;
+        height: 300px;
+        width: 275px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .second{
+        padding: 200px;
+    }
+    h3{
+        color: #3c3b3b;
+    }
+    .text{
+        margin-top: -30px;
+        margin-left: 50px;
+    }
+    .text .third{
+        display: block;
+    }
+    .text h3 {
+        display: inline;
+    }
 }
-
-.resume-link:hover {
-    color: black;
-}
-.resume-link{
-    color: white;
-    background-color: purple;
-    margin: 10px;
-    margin-left: -2px;
-    padding: 10px;
-    display: inline-block;
-    text-decoration: none;
-}
-
