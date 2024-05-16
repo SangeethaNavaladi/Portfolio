@@ -45,14 +45,75 @@ h4{
 .project-details1 {
     float: right;
     margin-top: -600px;
-    display: inline-block;
     padding-right: 60px;
 }
 .project-images1 img{
     float: right;
-    display: inline-block;
     width: 350px;
     height: 350px;
     margin-top: -350px;
     padding-right: 180px;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: aliceblue;
+    }
+    .first{
+        background-color: aliceblue;
+        color: black;
+        display: inline;
+    }
+    .first a{
+        text-decoration: none;
+    }
+        
+    .first ul,li{
+        display: inline;
+    }
+        
+    h4{
+        display: block;
+        margin-left: 40px;
+    }
+        
+    .first ul{
+        margin-left: 0px;
+    }
+    .project-details {
+        display: inline-block;
+    }
+    .project-images img {
+        display: inline-block;
+        height: 350px;
+        width: 350px;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .project-details p{
+        display: inline;
+        margin-top: 5px;
+    }
+    .project-details1 {
+        margin-top: -600px;
+        margin-top: 40px;
+        margin-left: 50px;
+        text-align: justify;
+        width: 70%;
+    }
+    .project-details1 p{
+        display: inline;
+        margin-top: 5px;
+    }
+    .project-images1 img{
+        width: 350px;
+        height: 350px;
+        margin-top: -350px;
+        padding-top: 380px;
+        padding-right: 35px;
+    }
+    .birdsheads{
+        display: none;
+    }
+
 }
