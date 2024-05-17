@@ -112,7 +112,10 @@ h3{
     }
     
     .first ul{
-        margin-left: -40px;
+        margin-left: -30px;
+    }
+    .first li{
+        margin-left: -10px;
     }
     
     .photostyle {
