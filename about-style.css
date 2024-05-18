@@ -70,63 +70,65 @@ h4{
 }
 
 @media only screen and (max-width: 768px) {
-body{
-    background-color: aliceblue;
-}
-.first{
-    background-color: aliceblue;
-    color: black;
-    display: inline;
-}
-.first a{
-    text-decoration: none;
-}
+    body{
+        background-color: aliceblue;
+    }
+    .first{
+        background-color: aliceblue;
+        color: black;
+        display: inline;
+    }
+    .first a{
+        text-decoration: none;
+    }
     
-.first ul,li{
-    display: inline;
-}
+    .first ul,li{
+        display: inline;
+    }
     
-h4{
-    display: block;
-    margin-left: 40px;
-}
+    h4{
+        display: block;
+        margin-left: 0px;
+    }
     
-.first ul{
-    margin-left: 0px;
-}
-.photos {
-    width: 300px;
-    height: 300px;
-    margin-left: -90px;
-    margin-top: -100px;
-    display: block;
-}
-.abouts{
-    text-decoration: underline;
-    text-align: center;
-    color: purple;
-    margin-right: 40px;
-    margin-top: -30px;
-}
-.names{
-    font-style: italic;
-}
-.forth{
-    margin-left: -50px;
-    margin-top: -70px;
-    color: #3c3b3b;
-    text-align: justify;
-    width: 70%;
-}
-.names{
-    color: black;
-    margin-top: -10px;
-    margin-left: 50px;
-}
-.forth h3 {
-    display: inline;
-    margin-left: 0px;
-    color: #3c3b3b;
-    word-spacing: -1px;
-}
+    .first ul{
+        margin-left: -20px;
+    }
+    .first li{
+        margin-left: -20px;
+    }
+    .photos {
+        width: 300px;
+        height: 300px;
+        margin-left: -150px;
+        margin-top: -100px;
+        display: block;
+    }
+    .abouts{
+        text-decoration: underline;
+        text-align: center;
+        color: purple;
+        margin-right: 40px;
+        margin-top: -30px;
+    }
+    .names{
+        font-style: italic;
+    }
+    .forth{
+        margin-left: -50px;
+        margin-top: -70px;
+        color: #3c3b3b;
+        text-align: justify;
+        width: 70%;
+    }
+    .names{
+        color: black;
+        margin-top: -10px;
+        margin-left: 50px;
+    }
+    .forth h3 {
+        display: inline;
+        margin-left: 0px;
+        color: #3c3b3b;
+    }
 }
