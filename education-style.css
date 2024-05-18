@@ -70,17 +70,20 @@ p{
     .first a{
         text-decoration: none;
     }
-        
+    
     .first ul,li{
         display: inline;
     }
-        
+    
     h4{
         display: block;
-        margin-left: 40px;
-    }
-        
-    .first ul{
         margin-left: 0px;
+    }
+    
+    .first ul{
+        margin-left: -20px;
+    }
+    .first li{
+        margin-left: -20px;
     }
 }
