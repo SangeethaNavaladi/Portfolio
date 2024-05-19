@@ -108,27 +108,26 @@ h4{
         text-decoration: underline;
         text-align: center;
         color: purple;
-        margin-right: 40px;
+        margin-right: 20px;
         margin-top: -30px;
     }
     .names{
         font-style: italic;
     }
     .forth{
-        margin-left: -50px;
         margin-top: -70px;
         color: #3c3b3b;
-        text-align: justify;
         width: 70%;
+        text-align: center;
+        display: inline-block;
+        margin-right: -50px;
     }
     .names{
         color: black;
         margin-top: -10px;
-        margin-left: 50px;
     }
-    .forth h3 {
+    .forth h3{
         display: inline;
         margin-left: 0px;
-        color: #3c3b3b;
     }
 }
