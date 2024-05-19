@@ -56,6 +56,7 @@ h4{
 }
 
 @media only screen and (max-width: 768px) {
+
     body{
         background-color: aliceblue;
     }
@@ -67,26 +68,29 @@ h4{
     .first a{
         text-decoration: none;
     }
-        
+    
     .first ul,li{
         display: inline;
     }
-        
+    
     h4{
         display: block;
-        margin-left: 40px;
-    }
-        
-    .first ul{
         margin-left: 0px;
+    }
+    
+    .first ul{
+        margin-left: -20px;
+    }
+    .first li{
+        margin-left: -20px;
     }
     .project-details {
         display: inline-block;
     }
     .project-images img {
         display: inline-block;
-        height: 350px;
-        width: 350px;
+        height: 250px;
+        width: 250px;
         padding-top: 20px;
         padding-left: 50px;
     }
@@ -106,8 +110,8 @@ h4{
         margin-top: 5px;
     }
     .project-images1 img{
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
         margin-top: -350px;
         padding-top: 380px;
         padding-right: 35px;
