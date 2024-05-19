@@ -101,7 +101,7 @@ h4{
     .project-details1 {
         margin-top: -600px;
         margin-top: 40px;
-        margin-left: 50px;
+        margin-right: -10px;
         width: 70%;
     }
     .project-details1 p{
@@ -113,7 +113,7 @@ h4{
         height: 250px;
         margin-top: -350px;
         padding-top: 380px;
-        padding-right: 70px;
+        padding-right: 60px;
     }
     .birdsheads{
         display: none;
