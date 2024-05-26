@@ -14,6 +14,9 @@ body{
 .first ul,li{
     display: inline;
 }
+.menu-toggle{
+    display: none;
+}
 
 h4{
     display: inline;
@@ -49,13 +52,16 @@ h3{
 }
 .third{
     color: blue;
+    margin-left: 150px;
+}
+p{
+    margin-left: 150px;
 }
 
 .names{
     font-style: italic;
-}
-.names{
-    color: black;
+    margin-top: -140px;
+    margin-left: 150px;
 }
 
 .linkedin1 {
@@ -67,15 +73,17 @@ h3{
     width: 100%; 
     height: auto;
     margin-top: 60px; 
+    margin-left: 150px;
 }
 
 .contacts a{
     color: white;
     margin-top: 30px;
-    background-color: purple;
     padding: 10px;
+    background-color: purple;
     display: inline-block;
     text-decoration: none;
+    margin-left: 150px;
 }
 
 .github1 {
@@ -87,61 +95,142 @@ h3{
     width: 100%; 
     height: auto;
     margin-top: 60px; 
+    margin-left: 150px;
 }
 
-@media only screen and (max-width: 768px) {
-    body{
-        background-color: aliceblue;
+@media (max-width: 1024px) {
+    .first {
+        flex-direction: column;
+        text-align: center;
     }
-    .first{
-        background-color: aliceblue;
-        color: black;
-        display: inline;
+
+    .first ul {
+        margin: 10px 0 0 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 35%;
     }
-    .first a{
-        text-decoration: none;
+
+    .first li {
+        margin: 10px 0;
+        margin-right: 10px;
     }
-    
-    .first ul,li{
-        display: inline;
+    .menu-toggle{
+        display: none;
     }
-    
-    h4{
-        display: block;
-        margin-left: 0px;
+
+    .second {
+        padding: 50px 20px;
     }
-    
-    .first ul{
-        margin-left: -20px;
-    }
-    .first li{
-        margin-left: -20px;
-    }
-    
+
     .photostyle {
-        border-radius: 50%;
-        height: 300px;
-        width: 275px;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        padding-top: 80px;
-        transform: translate(-50%, -50%);
-    }
-    .second{
-        padding: 200px;
-    }
-    h3{
-        color: #3c3b3b;
-    }
-    .text{
-        margin-top: -30px;
-        margin-left: 50px;
-    }
-    .text .third{
+        float: none;
+        margin: 20px auto;
         display: block;
     }
-    .text h3 {
-        display: inline;
+
+    .text, .third, p, .names, .linkedinlogo, .githublogo, .contacts a {
+        margin-left: 0;
+        text-align: center;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .names {
+        margin-top: 0;
+    }
+    .contacts a {
+        display: inline-block;
+    }
+    .contacts {
+        text-align: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
     }
 }
+
+@media (max-width: 768px) {
+    .first {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .first ul {
+        margin: 10px 0 0 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .first li {
+        margin: 10px 0;
+        margin-right: 10px;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    .second {
+        padding: 50px 20px;
+    }
+
+    .photostyle {
+        float: none;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .text, .third, p, .names, .linkedinlogo, .githublogo, .contacts a {
+        margin-left: 0;
+        text-align: center;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .names {
+        margin-top: 0;
+    }
+    .contacts a {
+        display: inline-block;
+    }
+    .contacts {
+        text-align: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .first ul{
+        margin-left: 10px;
+    }
+    h4{
+        display: block;
+        margin-right: 10px;
+    }
+
+    .photostyle {
+        height: 200px;
+        width: 175px;
+    }
+
+    .contacts a {
+        padding: 5px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .contacts{
+        text-align: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    }
+    
