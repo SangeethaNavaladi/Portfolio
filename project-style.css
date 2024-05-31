@@ -36,6 +36,15 @@ h4{
     display: inline-block;
     padding-left: 60px;
 }
+.socialcon{
+    margin-right: 1000px;
+}
+.birdscon{
+    margin-left: 1000px;
+}
+.birdshead{
+    margin-left: 1000px;
+}
 .project-images img {
     display: inline-block;
     height: 350px;
@@ -44,8 +53,9 @@ h4{
 }
 .project-details1 {
     float: right;
-    margin-top: -600px;
+    margin-top: -540px;
     padding-right: 60px;
+    margin-left: -50px;
 }
 .project-images1 img{
     float: right;
@@ -55,68 +65,161 @@ h4{
     padding-right: 180px;
 }
 
-@media only screen and (max-width: 768px) {
-
-    body{
-        background-color: aliceblue;
-    }
-    .first{
-        background-color: aliceblue;
-        color: black;
-        display: inline;
-    }
-    .first a{
-        text-decoration: none;
+@media (max-width: 1024px) {
+    .first {
+        flex-direction: column;
+        text-align: center;
     }
     
-    .first ul,li{
-        display: inline;
+    .first ul {
+        margin: 10px 0 0 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 35%;
     }
     
-    h4{
-        display: block;
-        margin-left: 0px;
-    }
-    
-    .first ul{
-        margin-left: -20px;
-    }
-    .first li{
-        margin-left: -20px;
+    .first li {
+        margin: 10px 0;
+        margin-right: 10px;
     }
     .project-details {
-        display: inline-block;
+        display: block;
+        margin: 0 auto;
+    }
+    .socialcon{
+        margin-right: 50px;
     }
     .project-images img {
-        display: inline-block;
+        display: block;
+        float: none;
         height: 250px;
         width: 250px;
-        padding-top: 20px;
-        padding-left: 60px;
+        margin: 0 auto;
+        
     }
-    .project-details p{
-        display: inline;
-        margin-top: 5px;
+    .project-images{
+        margin-right: 50px;
+    }
+    .birdshead{
+        margin-left: 50px;
+    }
+    .birdscon{
+        margin-left: 50px;
     }
     .project-details1 {
-        margin-top: -600px;
-        margin-top: 40px;
-        margin-right: -20px;
-        width: 70%;
-    }
-    .project-details1 p{
-        display: inline;
-        margin-top: 5px;
+        float: none;
+        display: block;
+        margin: 0 auto;
     }
     .project-images1 img{
+        display: block;
+        float: none;
         width: 250px;
         height: 250px;
-        margin-top: -350px;
-        padding-top: 380px;
-        padding-right: 50px;
+        margin: 0 auto;
     }
-    .birdsheads{
-        display: none;
+    .project-images1{
+        margin-left: 200px;
     }
-
+    
 }
+
+@media (max-width: 768px) {
+    .first {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .first ul {
+        margin: 10px 0 0 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1%;
+    }
+    
+    .first li {
+        margin: 10px 0;
+        margin-right: 10px;
+    }    .socialcon{
+        margin-right: 50px;
+    }
+    .project-images img {
+        display: block;
+        float: none;
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+        
+    }
+    .project-images{
+        margin-right: 50px;
+    }
+    .birdshead{
+        margin-left: 50px;
+    }
+    .birdscon{
+        margin-left: 50px;
+    }
+    .project-details1 {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .project-images1 img{
+        display: block;
+        float: none;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .project-images1{
+        margin-left: 200px;
+    }
+}
+@media (max-width: 480px) {
+    .first ul{
+        margin-left: 10px;
+    }
+    h4{
+        display: block;
+        margin-right: 10px;
+    }
+    .socialcon{
+        margin-right: 50px;
+    }
+    .project-images img {
+        display: block;
+        float: none;
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+        
+    }
+    .project-images{
+        margin-right: 50px;
+    }
+    .birdshead{
+        margin-left: 50px;
+    }
+    .birdscon{
+        margin-left: 50px;
+    }
+    .project-details1 {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .project-images1 img{
+        display: block;
+        float: none;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .project-images1{
+        margin-left: 200px;
+    }
+}
+    
