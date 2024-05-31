@@ -57,33 +57,51 @@ h2 {
 p{
     color: #3c3b3b;
 }
+@media (max-width: 1024px) {
+    .first {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .first ul {
+        margin: 10px 0 0 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 35%;
+    }
+    
+    .first li {
+        margin: 10px 0;
+        margin-right: 10px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
-    body{
-        background-color: aliceblue;
-    }
-    .first{
-        background-color: aliceblue;
-        color: black;
-        display: inline;
-    }
-    .first a{
-        text-decoration: none;
+    .first {
+        flex-direction: column;
+        text-align: center;
     }
     
-    .first ul,li{
-        display: inline;
+    .first ul {
+        margin: 10px 0 0 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1%;
     }
     
+    .first li {
+        margin: 10px 0;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .first ul{
+        margin-left: 10px;
+    }
     h4{
         display: block;
-        margin-left: 0px;
-    }
-    
-    .first ul{
-        margin-left: -20px;
-    }
-    .first li{
-        margin-left: -20px;
+        margin-right: 10px;
     }
 }
