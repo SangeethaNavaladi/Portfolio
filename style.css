@@ -116,9 +116,6 @@ p{
         margin: 10px 0;
         margin-right: 10px;
     }
-    .menu-toggle{
-        display: none;
-    }
 
     .second {
         padding: 50px 20px;
@@ -170,9 +167,7 @@ p{
         margin: 10px 0;
         margin-right: 10px;
     }
-    .menu-toggle{
-        display: none;
-    }
+
     .second {
         padding: 50px 20px;
     }
