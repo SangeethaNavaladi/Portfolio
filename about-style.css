@@ -1,7 +1,6 @@
 body{
     background-color: aliceblue;
 }
-
 .first{
     background-color: aliceblue;
     color: black;
@@ -28,27 +27,19 @@ h4{
     margin-right: 25px;
 }
 .abouts{
-    text-decoration: underline;
     text-align: center;
+    text-decoration: underline;
     color: purple;
 }
-
 .names{
+    margin-left: 50px;
     font-style: italic;
-}
-.forth{
-    float: right;
-    margin-left: 30px;
-    margin-bottom: 100px;
-    display: inline;
-    color: #3c3b3b;
-}
-.names{
-    color: black;
-    margin-top: 250px;
+    margin-top: 150px;
+    text-align: center;
 }
 p{
-    margin-right: 250px;
+    text-align: center;
+    margin-left: 50px;
 }
 
 .photos{
@@ -56,8 +47,8 @@ p{
     height: 300px;
     overflow: hidden;
     float: left;
-    padding: 150px;
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-left: 150px;
 }
 .resume-link:hover {
     color: black;
@@ -71,13 +62,16 @@ p{
     display: inline-block;
     text-decoration: none;
 }
+h2{
+    text-align: center;
+}
 
 @media (max-width: 1024px) {
     .first {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .first ul {
         margin: 10px 0 0 0;
         padding: 0;
@@ -85,16 +79,17 @@ p{
         align-items: center;
         margin-left: 35%;
     }
-    
+
     .first li {
         margin: 10px 0;
         margin-right: 10px;
     }
+
     .photos{
         float: none;
         margin: 20px auto;
         display: block;
-        margin-top: -40px;
+        margin-top: 20px;
     }
     .abouts {
         margin: 0px auto;
@@ -102,8 +97,9 @@ p{
         margin-top: 30px;
     }
     .names{
-        margin-top: -100px;
+        margin-top: 60px;
         text-align: center;
+        margin-left: 0px;
     }
     p{
         text-align: center;
@@ -122,7 +118,7 @@ p{
         flex-direction: column;
         text-align: center;
     }
-    
+
     .first ul {
         margin: 10px 0 0 0;
         padding: 0;
@@ -130,10 +126,16 @@ p{
         align-items: center;
         margin-left: 1%;
     }
-    
+
     .first li {
         margin: 10px 0;
         margin-right: 10px;
+    }
+    .photos{
+        float: none;
+        margin: 20px auto;
+        display: block;
+        margin-top: 20px;
     }
 }
 @media (max-width: 480px) {
@@ -146,12 +148,9 @@ p{
     }
     .photos{
         float: none;
+        margin: 20px auto;
         display: block;
-        margin-left: -100px;
-
-    }
-    .names h1{
-        text-align: center;
+        margin-top: 30px;
     }
     p{
         text-align: center;
