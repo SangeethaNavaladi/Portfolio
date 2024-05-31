@@ -49,20 +49,20 @@ h4{
     display: inline-block;
     height: 350px;
     width: 350px;
-    padding-left: 80px;
+    margin-left: 80px;
 }
 .project-details1 {
     float: right;
     margin-top: -540px;
-    padding-right: 60px;
-    margin-left: -50px;
+    padding-right: 50px;
+    margin-left: -70px;
 }
 .project-images1 img{
     float: right;
     width: 350px;
     height: 350px;
     margin-top: -350px;
-    padding-right: 180px;
+    margin-right: 180px;
 }
 
 @media (max-width: 1024px) {
@@ -88,24 +88,25 @@ h4{
         margin: 0 auto;
     }
     .socialcon{
-        margin-right: 50px;
+        margin-right: 450px;
+        text-align: left;
     }
-    .project-images img {
+    .project-images img{
         display: block;
         float: none;
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         margin: 0 auto;
-        
-    }
-    .project-images{
+        margin-top: -150px;
         margin-right: 50px;
+
     }
     .birdshead{
         margin-left: 50px;
     }
     .birdscon{
         margin-left: 50px;
+        margin-right: 450px;
     }
     .project-details1 {
         float: none;
@@ -115,9 +116,11 @@ h4{
     .project-images1 img{
         display: block;
         float: none;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         margin: 0 auto;
+        margin-top: -160px;
+        margin-right: 50px;
     }
     .project-images1{
         margin-left: 200px;
@@ -130,7 +133,7 @@ h4{
         flex-direction: column;
         text-align: center;
     }
-    
+
     .first ul {
         margin: 10px 0 0 0;
         padding: 0;
@@ -138,88 +141,84 @@ h4{
         align-items: center;
         margin-left: 1%;
     }
-    
+
     .first li {
         margin: 10px 0;
         margin-right: 10px;
-    }    .socialcon{
+    }
+
+    .socialcon {
         margin-right: 50px;
     }
+
     .project-images img {
         display: block;
         float: none;
         height: 250px;
         width: 250px;
         margin: 0 auto;
-        
     }
-    .project-images{
+
+    .project-images {
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    .birdshead {
+        margin-left: 50px;
+    }
+
+    .birdscon {
         margin-right: 50px;
     }
-    .birdshead{
-        margin-left: 50px;
-    }
-    .birdscon{
-        margin-left: 50px;
-    }
+
     .project-details1 {
         float: none;
         display: block;
         margin: 0 auto;
     }
-    .project-images1 img{
+
+    .project-images1 img {
         display: block;
         float: none;
         width: 250px;
         height: 250px;
         margin: 0 auto;
     }
-    .project-images1{
-        margin-left: 200px;
+
+    .project-images1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-right: 40px;
     }
 }
+
 @media (max-width: 480px) {
-    .first ul{
+    .first ul {
         margin-left: 10px;
     }
-    h4{
+
+    h4 {
         display: block;
         margin-right: 10px;
     }
-    .socialcon{
-        margin-right: 50px;
-    }
-    .project-images img {
-        display: block;
-        float: none;
-        height: 250px;
-        width: 250px;
+
+    .birdscon {
         margin: 0 auto;
-        
-    }
-    .project-images{
-        margin-right: 50px;
-    }
-    .birdshead{
         margin-left: 50px;
     }
-    .birdscon{
-        margin-left: 50px;
-    }
-    .project-details1 {
+
+    .project-images {
         float: none;
-        display: block;
         margin: 0 auto;
+        text-align: center;
     }
-    .project-images1 img{
-        display: block;
+
+    .project-images1 {
         float: none;
-        width: 250px;
-        height: 250px;
         margin: 0 auto;
-    }
-    .project-images1{
-        margin-left: 200px;
+        margin-top: 10px;
+        text-align: center;
     }
 }
-    
