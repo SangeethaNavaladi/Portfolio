@@ -57,6 +57,7 @@ h2 {
 p{
     color: #3c3b3b;
 }
+
 @media (max-width: 1024px) {
     .first {
         flex-direction: column;
@@ -96,6 +97,7 @@ p{
         margin-right: 10px;
     }
 }
+
 @media (max-width: 480px) {
     .first ul{
         margin-left: 10px;
