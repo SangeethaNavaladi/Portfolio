@@ -1,6 +1,7 @@
 body{
     background-color: aliceblue;
 }
+
 .first{
     background-color: aliceblue;
     color: black;
@@ -12,6 +13,9 @@ body{
 
 .first ul,li{
     display: inline;
+}
+.menu-toggle{
+    display: none;
 }
 
 h4{
@@ -96,6 +100,7 @@ h2{
     .center{
         margin-top: 150px;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -133,6 +138,7 @@ h2{
     }
 
 }
+
 @media (max-width: 480px) {
     .first ul{
         margin-left: 10px;
@@ -156,6 +162,5 @@ h2{
         width: none;
         text-align: center;
     }
-
 }
     
