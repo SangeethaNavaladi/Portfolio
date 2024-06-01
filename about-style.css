@@ -28,27 +28,28 @@ h4{
 }
 .abouts{
     text-align: center;
-    text-decoration: underline;
     color: purple;
+    text-decoration: underline;
 }
-.names{
-    margin-left: 50px;
-    font-style: italic;
-    margin-top: 150px;
-    text-align: center;
-}
-p{
-    text-align: center;
-    margin-left: 50px;
-}
-
 .photos{
     width: 270px;
     height: 300px;
-    overflow: hidden;
     float: left;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 150px;
+}
+.center{
+    text-align: center;
+    margin-top: 200px;
+}
+.names{
+    font-style: italic;
+}
+p {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateX(200px);
 }
 .resume-link:hover {
     color: black;
@@ -84,33 +85,17 @@ h2{
         margin: 10px 0;
         margin-right: 10px;
     }
-
-    .photos{
-        float: none;
-        margin: 20px auto;
-        display: block;
-        margin-top: 20px;
-    }
-    .abouts {
-        margin: 0px auto;
-        display: block;
-        margin-top: 30px;
-    }
-    .names{
-        margin-top: 60px;
+    .abouts{
         text-align: center;
-        margin-left: 0px;
-    }
+        text-decoration: underline;
+        color: purple;
+    } 
     p{
-        text-align: center;
-        margin: auto;
-        margin-left: 50px;
-        margin-right: 50px;
+        transform: translateX(60px);
+    } 
+    .center{
+        margin-top: 150px;
     }
-    h2{
-        text-align: center;
-    }
-
 }
 
 @media (max-width: 768px) {
@@ -131,12 +116,22 @@ h2{
         margin: 10px 0;
         margin-right: 10px;
     }
+    .center{
+        margin: auto;
+        float: none;
+    }
     .photos{
         float: none;
         margin: 20px auto;
         display: block;
         margin-top: 20px;
     }
+    p{
+        transform: none;
+        width: 300px;
+        text-align: center;
+    }
+
 }
 @media (max-width: 480px) {
     .first ul{
@@ -146,16 +141,19 @@ h2{
         display: block;
         margin-right: 10px;
     }
+    .center{
+        margin: auto;
+        float: none;
+    }
     .photos{
         float: none;
         margin: 20px auto;
         display: block;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     p{
-        text-align: center;
-    }
-    .resume-link{
+        transform: none;
+        width: none;
         text-align: center;
     }
 
